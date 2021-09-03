@@ -8,11 +8,14 @@ export const TaskAddInput = ({
 }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
+    if (inputText === "") {
+      return;
+    }
     //カードを追加する。
     setTaskList([
       ...taskList,
       {
+        id: taskList.length,
         text: inputText,
       },
     ]);
