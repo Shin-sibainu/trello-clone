@@ -76,3 +76,31 @@ header {
     margin-right: 9px;
     border: none;
 }
+
+.taskCardsArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.addTaskCardButtonArea {
+    margin-left: 1%;
+    margin-top: 25px;
+}
+
+.addDTaskCardButton {
+    padding: 10px 18px;
+    border-radius: 9999px;
+    font-size: 30px;
+    background-color: rgb(221, 194, 162);
+    box-shadow: 3px 3px 8px 1px black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.addDTaskCardButton:hover {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
