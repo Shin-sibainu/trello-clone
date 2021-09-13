@@ -27,7 +27,6 @@ export const TaskAddInput = ({
 
   const handleChange = (e) => {
     setInputText(e.target.value);
-    console.log(inputText);
   };
   return (
     <div>
