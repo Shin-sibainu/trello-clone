@@ -104,3 +104,16 @@ header {
     transform: translate(3px, 3px);
 }
 
+.taskCardTitleAndTaskCardDeleteButtonArea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskCardDeleteButton {
+    border: none;
+    background-color: rgb(228,228,228);
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(158, 46, 46);
+}
+
